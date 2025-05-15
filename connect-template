@@ -1,0 +1,19 @@
+curl -k "http://<ip address>:4444"/webconsole/APIController?reqxml="
+
+<Request>
+    <Login>
+        <Username>
+        </Username>
+        <Password>
+        </Password>
+    </Login>
+    
+    <Get>
+        <IPHost>
+        </IPHost>
+
+        <GatewayStatistics>
+        </GatewayStatistics>
+    </Get>
+
+"
